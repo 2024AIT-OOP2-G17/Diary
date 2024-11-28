@@ -1,7 +1,10 @@
 from diaries.DiarySample import DiarySample
+from diaries.DiarySample import FuwaDiary
 
 # ↓のリストには、メンバーの各日記が格納されます。
-diaries = [DiarySample(), ] 
+diaries = [
+    DiarySample(),
+    FuwaDiary()] 
 
 for d in diaries:
     print("---------------------------------")
